@@ -1,34 +1,119 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html lang="es-DO">
+<head>
+  <meta charset="UTF-8">
+  <title>Soluciones Digitales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
 
-# Local configuration file (sdk path, etc)
-local.properties
+  <meta name="theme-color" content="#0a0d1a">
 
-# Log/OS Files
-*.log
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0d1a;
+      color: #fff;
+      text-align: center;
+    }
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+    header {
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #0d1b2a, #1e3a8a);
+    }
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+    h1 {
+      color: #4da8ff;
+      font-size: 2.6em;
+    }
 
-# Keystore files
-*.jks
-*.keystore
+    p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.15em;
+      color: #e5e7eb;
+    }
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+    .btn {
+      display: inline-block;
+      margin: 20px 10px;
+      padding: 16px 40px;
+      background: #e10600;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
 
-# Android Profiling
-*.hprof
+    .btn:hover {
+      background: #ff2a2a;
+      transform: scale(1.05);
+    }
+
+    .section {
+      padding: 70px 20px;
+    }
+
+    footer {
+      background: #020617;
+      padding: 20px;
+      font-size: 0.85em;
+      color: #9ca3af;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Soluciones Digitales Profesionales</h1>
+  <p>
+    Plataforma moderna, agresiva y diseñada para convertir visitantes en clientes.
+  </p>
+
+  <a href="https://wa.me/18496395701?text=Hola,%20quiero%20comprar%20ahora." 
+     class="btn" target="_blank">
+    COMPRAR AHORA
+  </a>
+
+  <a href="https://wa.me/18496395701?text=Necesito%20más%20información." 
+     class="btn" target="_blank">
+    HABLAR POR WHATSAPP
+  </a>
+</header>
+
+<div class="section">
+  <h2>🚀 Ventajas</h2>
+  <p>
+    Atención inmediata • Resultados rápidos • Soluciones profesionales •
+    Acceso desde cualquier lugar
+  </p>
+</div>
+
+<footer>
+  © 2025 — Soluciones Digitales | App Web
+</footer>
+
+<a class="whatsapp" 
+   href="https://wa.me/18496395701?text=Soporte%20rápido" 
+   target="_blank">💬</a>
+
+</body>
+</html>
